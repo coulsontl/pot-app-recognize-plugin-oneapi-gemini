@@ -1,0 +1,62 @@
+{
+  "id": "plugin.com.pot-app.recognize.oneapi.gemini",
+  "plugin_type": "recognize",
+  "icon": "gemini.svg",
+  "display": "OneApi-Gemini",
+  "homepage": "https://github.com/coulsontl/pot-app-recognize-plugin-oneapi-gemini",
+  "needs": [
+    {
+      "key": "model",
+      "display": "模型",
+      "type": "input"
+    },
+    {
+      "key": "requestPath",
+      "display": "请求路径",
+      "type": "input"
+    },
+    {
+      "key": "apiKey",
+      "display": "API Key",
+      "type": "input"
+    },
+    {
+      "key": "customPrompt",
+      "display": "自定义 Prompt",
+      "type": "input"
+    }
+  ],
+  "language": {
+    "auto": "Auto",
+    "zh_cn": "Simplified Chinese",
+    "zh_tw": "Traditional Chinese",
+    "yue": "Cantonese",
+    "ja": "Japanese",
+    "en": "English",
+    "ko": "Korean",
+    "fr": "French",
+    "es": "Spanish",
+    "ru": "Russian",
+    "de": "German",
+    "it": "Italian",
+    "tr": "Turkish",
+    "pt_pt": "Portuguese",
+    "pt_br": "Brazilian Portuguese",
+    "vi": "Vietnamese",
+    "id": "Indonesian",
+    "th": "Thai",
+    "ms": "Malay",
+    "ar": "Arabic",
+    "hi": "Hindi",
+    "mn_mo": "Mongolian",
+    "mn_cy": "Mongolian(Cyrillic)",
+    "km": "Khmer",
+    "nb_no": "Norwegian Bokmål",
+    "nn_no": "Norwegian Nynorsk",
+    "fa": "Persian",
+    "sv": "Swedish",
+    "pl": "Polish",
+    "nl": "Dutch",
+    "uk": "Ukrainian"
+  }
+}
